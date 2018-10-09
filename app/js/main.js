@@ -1,4 +1,4 @@
-/*$(document).ready(function() {
+$(document).ready(function() {
 	// Function to get input value.
 	$("#form").on("submit", function(event) {
 		event.preventDefault();
@@ -76,10 +76,10 @@
 		$(".message").val("");
 		$("p").addClass("hide");
 	});
-});*/
+});
 
 
-
+/*
 $(document).ready(function() {
 	// Function to get input value.
 	$("#form").on("submit", function(event) {
@@ -188,4 +188,4 @@ $(document).ready(function() {
 			  })
 		  }
 	});
-});
+});*/
