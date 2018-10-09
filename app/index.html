@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/global.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class="row">
+            <div class="callout text-center">
+                <form id="form">
+                    <div class="row-wrap">
+                        <div id="login" class="medium-offset-3 medium-6">
+                            <h1>Write a message</h1>
+                            <div class="field">
+                                <label class="label_name">Name</label>
+                                <input type="text" name="name" class="name" placeholder="Name"/>
+                            </div>
+                            <div class="field">
+                                <label class="label_surname">Surname</label>
+                                <input type="text" name="surname" class="surname" placeholder="Surname"/>
+                            </div>
+                            <div class="field">
+                                <label>Object</label>
+                                <input type="text" name="object" class="object" placeholder="Object" id="object"/>
+                            </div>
+                            <label>Message</label>
+                            <textarea class="message" name="testo" rows="9" placeholder="Message"></textarea>
+                            <label>Inserisci un messaggio di almeno 25 caratteri</label>
+                            <input type="submit" id="send" name="invia" value="Submit"/>
+                        </div>
+                    </div>
+                </form>
+                <div class="medium-offset-3 medium-6 box">
+                    <div class="hide message_sent"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/push.js"></script>
+    </body>
+</html>

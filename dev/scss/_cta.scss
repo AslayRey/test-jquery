@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    border:0;
+    font-family: 'Raleway', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#login {
+    width: 50%;
+}
+
+.row-wrap {
+    width: 50%;
+}
+
+.message_sent {
+    width: 50%;
+    justify-content: right;
+    color: #FFFFFF;
+    background-image: url("../img/background.png");
+    background-size: cover;
+    margin-left: 50%;
+    padding-top: 0;
+    margin-top: -50%;
+}
+
+.box {
+    height: 10px;
+    margin-right: 15%;
+}
+
+.message_sent p {
+    background-color: rgb(16, 34, 194);
+    width:50%;
+    margin-bottom: 0px;
+    border: 0px solid rgb(16, 34, 194);
+    margin-left: 50%;
+}
+
+label1, label2 {
+    color: red;
+    text-align: left;
+}
+
+label {
+    text-align: left;
+}
+
+
+
+div.message_sent
+{
+	height: 600px;
+	overflow:auto;
+}

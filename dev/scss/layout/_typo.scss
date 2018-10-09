@@ -1,0 +1,72 @@
+/*$font-size-default: rem-calc(14);
+$font-size-small: rem-calc(12);
+$font-size-big: rem-calc(17);
+
+p, span {
+    font-size: $font-size-default;
+}
+
+.small {
+    font-size: $font-size-small;
+}
+
+.big{
+    font-size: $font-size-big;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}*/
+
+
+/*.main p, .main span {
+    font-size:$font-size-default;
+}
+
+.small {
+    font-size: $font-size-small;
+}
+.big {
+    font-size:$font-size-big;
+}*/
+.uppercase {
+    text-transform: uppercase;
+}
+.lowercase {
+    text-transform: lowercase;
+}
+ a {
+    color:black;
+}
+.main li {
+    list-style: none;
+}
+.bold  {
+    font-weight: $titlebar-text-font-weight;
+}
+.display-inline-block{
+    display: inline-block;
+}
+.center {
+    text-align: center;
+}
+.main {
+    margin-top:80px;
+}
+
+
+
+.media {
+    @include breakpoint(small only) {
+        display: none;
+    }
+}
+.media-select {
+    @include breakpoint(small only) {
+        display: block;
+    }
+}
